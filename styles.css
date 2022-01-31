@@ -1,0 +1,20 @@
+body {
+    background-color: darkcyan;
+}
+
+#myCalForm {
+    width: 291px;
+    background-color: darkgray;
+    border-radius: 9px;
+}
+
+.title {
+    margin-left: 18px;
+}
+
+#myCalScreen {
+    background-color: beige;
+    width: 255px;
+    height: 43px;
+    margin-left: 14px;
+}

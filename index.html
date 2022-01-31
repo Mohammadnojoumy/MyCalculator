@@ -6,39 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Calculator</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="row">
-            <h3>My calculator</h3>
-            <h3></h3>
-        </div>
-        <form id="myCalForm">
-            <input type="text" id="dispaly" value="">
-            <div class="col-12">
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="C">
-                <br>
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="+">
-                <br>
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
-                <input type="button" value="-">
-                <br>
-                <input type="button" value="0">
-                <input type="button" value="=">
-                <input type="button" value="/">
-                <input type="button" value="*">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+
+                <h4 class="title">My calculator</h4>
+
             </div>
-        </form>
+
+            <form id="myCalForm">
+                <input type="text" id="myCalScreen" value="" readonly>
+                <div class="col-12">
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="C">
+                    <br>
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="+">
+                    <br>
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="- ">
+                    <br>
+                    <input type="button" value="0">
+                    <input type="button" value="=">
+                    <input type="button" value="/">
+                    <input type="button" value="* ">
+                </div>
+            </form>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
